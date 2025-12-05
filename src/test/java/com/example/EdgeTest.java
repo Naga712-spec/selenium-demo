@@ -10,6 +10,7 @@ public class EdgeTest {
 
         WebDriver driver = new EdgeDriver();
         driver.get("https://www.google.com");
+        System.out.println("Hello World");
         System.out.println("Page Title: " + driver.getTitle());
         driver.quit();
     }
